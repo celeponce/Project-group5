@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p><h6></h6></p>
+        <h2></h2>
+        <header></header>
+        <nav></nav>
+        <article></article>
+            <section></section>
+                <p><h6></h6></p>
+            <aside></aside>
+        <footer></footer>
+    </body>
+</html>
