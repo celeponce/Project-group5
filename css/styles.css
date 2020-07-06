@@ -1,0 +1,18 @@
+.contentfont {
+    font-family: 'Forum', cursive;
+}
+
+.buttondesayuno {
+     color: cornsilk !important;
+    
+    background-color: blueviolet !important;
+    border-radius: 5px;
+    text-align: center justify;
+}
+.flotante {
+    display:scroll;
+        position:fixed;
+        bottom:0px;
+        right:0px;
+                       
+}
