@@ -16,3 +16,11 @@
         right:0px;
                        
 }
+
+.flotante1 {
+    display:scroll;
+        position:fixed;
+        bottom:48px;
+        right:0px;
+                       
+}
