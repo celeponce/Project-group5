@@ -1,12 +1,17 @@
-.botones{
+.nav1{
     width: 100%;
     height: 80px;
     background: blueviolet;
     padding: 15px;
 }
-h5{
-    color: coral;
+
+.botonnav{ background: blueviolet;}
+h2{
+    color: blueviolet;
 }
-p{
-    color: coral;
+h1{
+    color: blueviolet;
+}
+p1{
+    color: blueviolet;
 }
