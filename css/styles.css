@@ -25,3 +25,12 @@
         right:0px;
                        
 }
+.flotante2 {
+    display:scroll;
+        position:fixed;
+        bottom:100px;
+        right:5px;
+        width: 20px;
+        height: 20px;
+                       
+}

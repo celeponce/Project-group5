@@ -289,33 +289,76 @@
 
                 <!--Body-->
                 <div class="modal-body">
+
                   <div class="md-form form-sm mb-5">
                     <i class="fas fa-envelope prefix"></i>
-                    <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
-                    <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+                    <input type="input" id="modalLRInput10" class="form-control form-control-sm validate">
+                    <label data-error="wrong" data-success="right" for="modalLRInput10">Nombre</label>
+                  </div>
+
+                  <div class="md-form form-sm mb-5">
+                    <i class="fas fa-envelope prefix"></i>
+                    <input type="input" id="modalLRInput10" class="form-control form-control-sm validate" required minlength="8" maxlength="20">
+                    <label data-error="wrong" data-success="right" for="modalLRInput10">Teléfono *</label>
+                  </div>
+
+                  <div class="md-form form-sm mb-5">
+                    <i class="fas fa-envelope prefix"></i>
+                    <input type="email" id="modalLRInput10" class="form-control form-control-sm validate" required minlength="8" maxlength="20">
+                    <label data-error="wrong" data-success="right" for="modalLRInput10">e-mail *</label>
+                  </div>
+
+                  <div class="md-form form-sm mb-5">
+                    <i class="fas fa-envelope prefix"></i>
+                    <!-- <input type="email" id="modalLRInput12" class="form-control form-control-sm validate"> -->
+                    <input type="date" id="start"  class="form-control form-control-sm validate" name="trip-start" min="today" max="2022-12-31">
+                    <br>
+                    <label data-error="wrong" data-success="right" for="modalLRInput12">Fecha de entrega</label>
                   </div>
 
                   <div class="md-form form-sm mb-5">
                     <i class="fas fa-lock prefix"></i>
-                    <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
-                    <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+                    <!-- <input type="password" id="modalLRInput13" class="form-control form-control-sm validate"> -->
+                    <input type="time" class="form-control form-control-sm validate" name="horaentrega" min="08:00" max="21:00" step="600">
+                    <br>
+                    <label data-error="wrong" data-success="right" for="modalLRInput13">Hora de entrega</label>
                   </div>
 
                   <div class="md-form form-sm mb-4">
                     <i class="fas fa-lock prefix"></i>
-                    <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
-                    <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+                    <!-- <input type="password" id="modalLRInput14" class="form-control form-control-sm validate"> -->
+                    <div class="dropdown">
+                      <button class="btn btn-lg dropdown-toggle form-control form-control-sm validate" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seleccioná tu bandeja
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#"></a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                    <label data-error="wrong" data-success="right" for="modalLRInput14">Seleccionar Bandeja</label>
+                  </div>
+
+                  <div class="md-form form-sm mb-4">
+                    <i class="fas fa-lock prefix"></i>
+                    <!-- <input type="password" id="modalLRInput14" class="form-control form-control-sm validate"> -->
+                    <textarea class=" form-control form-control-sm validate" aria-label="With textarea"
+                      id="modalLRInput10"></textarea>
+                    <label data-error="wrong" data-success="right" for="modalLRInput14">Notas | Detalles</label>
                   </div>
 
                   <div class="text-center form-sm mt-2">
-                    <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+                    <button class="btn btn-info buttondesayuno">Reservar<i class="fas fa-sign-in ml-1"></i></button>
                   </div>
 
                 </div>
                 <!--Footer-->
                 <div class="modal-footer">
                   <div class="options text-right">
-                    <p class="pt-1">Already have an account? <a href="#" class="blue-text buttondesayuno">Log In</a></p>
+                    <p class="pt-1">
+                    <h6>Si ya reservaste tu bandeja, esperá nuestro contacto y el cupón de pago</h6> </p>
                   </div>
                   <button type="button" class="btn btn-outline-info waves-effect ml-auto buttondesayuno"
                     data-dismiss="modal">Close</button>
@@ -339,25 +382,27 @@
 
     </div>
 
-    <div class="buttonwhatsapp">
+    <!-- Go top to the page -->
+    <a class="flotante2" href="#"><img src="./img/flecha.ico"></a>
 
+    <!-- Link con whatsapp -->
+    <!--    <div class="buttonwhatsapp">
       <a href="https://wa.me/5493814628535?text=Hola,%20me%20contacto%20para%20realizar%20una%20consulta"
         class="btn btn-bd-primary buttonwhatsapp flotante1" data-toggle="modal" data-target="#modalLRForm">
       </a>
+    </div> -->
 
-    </div>
-
-
+    <a href="https://api.whatsapp.com/send?phone=5493814628535" class="whatsapp-link flotante1" target="_blank"><img
+        src="https://equus.vtexcommercestable.com.br/arquivos/whats-icon.png?v=637255113629100000" alt="Escribinos"
+        title="Escribinos"></a>
 
   </div>
   <!-- Section -->
-  <a href="https://api.whatsapp.com/send?phone=5493814628535" class="whatsapp-link flotante1" target="_blank"><img
-      src="https://equus.vtexcommercestable.com.br/arquivos/whats-icon.png?v=637255113629100000" alt="Escribinos"
-      title="Escribinos"></a>
+
 
 
   <!-- Footer     -->
-  <footer class= "footer text-center">
+  <footer class="footer text-center">
     Copyright &#169; 2020 - Oscar Aguirre - Celeste Ponce |
     <a href="https://www.codear.com/">CodeAr.</a>
     <address>
