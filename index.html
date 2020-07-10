@@ -41,10 +41,10 @@
     <nav class="nav1">
       <ul>
         <button type="button" class="btn btn-primary btn-lg botonnav">Inicio</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav">Desayunos</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav">Picadas</button>
+        <button type="button" class="btn btn-secondary btn-lg botonnav"><a href="#ancladesayuno">Desayunos</a></button>
+        <button type="button" class="btn btn-secondary btn-lg botonnav"><a href="#anclapicada">Picadas</a></button>
         <button type="button" class="btn btn-secondary btn-lg botonnav">Nosotros</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav">Mas</button>
+        <button type="button" class="btn btn-secondary btn-lg botonnav"><a href=error404.html>Mas</a></button>
       </ul>
     </nav>
     <!-- Carousel -->
@@ -143,21 +143,21 @@
     <section>
       <aside id="izq"></aside>
       <article>
-        <h1>Titulo del articulo</h1>
+        <h1>Llegamos a todo San Miguel de Tucumán</h1>
         <br />
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet maxime
-        asperiores natus, ipsum excepturi assumenda, quas libero earum nulla,
-        repudiandae tenetur nihil harum voluptate odit voluptas magni qui
-        aliquid. Facere.
+        Si estás en el microcentro, alrededores, fuera de las cuatro avenidas y hasta a los limites de la ciudad,
+        llevamos tu pedido sin cargo!
       </article>
     </section>
     <hr class="featurette-divider">
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
+      <div class="col-md-7 order-md-2" >
+        <h2 class="featurette-heading"><a name="ancladesayuno">Nuestros Desayunos:</a> <span class="text-muted">Son de la mejor Calidad</span></h2>
+        <p class="lead">
+          Todos nuestros desayunos contienen productos de primera calidad y marcas lideres. Ofrecemos 6 infusiones
+          varias, golosinas, barras de cereal, jugos, grisines, media lunas, alfajores de maicena, pasta frolas,
+          milojas, galletas, tazon, y mucho mas.
+        </p>
       </div>
       <div class="col-md-5 order-md-1">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -171,27 +171,28 @@
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
+        <h2 class="featurette-heading">Desayunos sin TACC. <span class="text-muted">Dejate sorprender.</span></h2>
+        <p class="lead">Siendo cuidadosos en la elección de los productos y en cada etapa del armado, ofrecemos esta
+          opción apta para celíacos, porque ellos tambien merecen ser sorprendidos y mimados </p>
       </div>
       <div class="col-md-5">
+        
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
           height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
           role="img" aria-label="Placeholder: 500x500">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+           <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee"> 
+            </rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text> 
         </svg>
       </div>
     </div>
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
+        <h2 class="featurette-heading"><a name = "anclapicada">Delicias Saladas </a><span class="text-muted">Nuestras Picadas</span></h2>
+        <p class="lead">Fiambres frescos de primera calidad. Variedades de quesos, tybo, roqueford, cheddar, jamones
+          crudos cocidos y ahumados, salames, aceitunas, papas fritas, mani salado, y un vaso para brindar con la bebida
+          que vos elijas</p>
       </div>
       <div class="col-md-5 order-md-1">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
@@ -199,7 +200,7 @@
           role="img" aria-label="Placeholder: 500x500">
           <title>Placeholder</title>
           <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
+      </svg>
       </div>
     </div>
 
@@ -294,48 +295,48 @@
                     <i class="fas fa-envelope prefix"></i>
                     <input type="input" id="modalLRInput10" class="form-control form-control-sm validate">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">Nombre</label>
-                  </div>
 
-                  <div class="md-form form-sm mb-5">
+
+
                     <i class="fas fa-envelope prefix"></i>
-                    <input type="input" id="modalLRInput10" class="form-control form-control-sm validate" required minlength="8" maxlength="20">
+                    <input type="input" id="modalLRInput10" class="form-control form-control-sm validate" required
+                      minlength="8" maxlength="20">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">Teléfono *</label>
-                  </div>
 
-                  <div class="md-form form-sm mb-5">
                     <i class="fas fa-envelope prefix"></i>
-                    <input type="email" id="modalLRInput10" class="form-control form-control-sm validate" required minlength="8" maxlength="20">
+                    <input type="email" id="modalLRInput10" class="form-control form-control-sm validate" required
+                      minlength="8" maxlength="20">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">e-mail *</label>
-                  </div>
 
-                  <div class="md-form form-sm mb-5">
                     <i class="fas fa-envelope prefix"></i>
                     <!-- <input type="email" id="modalLRInput12" class="form-control form-control-sm validate"> -->
-                    <input type="date" id="start"  class="form-control form-control-sm validate" name="trip-start" min="today" max="2022-12-31">
+                    <input type="date" id="start" class="form-control form-control-sm validate" name="trip-start"
+                      min="today" max="2022-12-31">
                     <br>
                     <label data-error="wrong" data-success="right" for="modalLRInput12">Fecha de entrega</label>
-                  </div>
 
-                  <div class="md-form form-sm mb-5">
                     <i class="fas fa-lock prefix"></i>
                     <!-- <input type="password" id="modalLRInput13" class="form-control form-control-sm validate"> -->
-                    <input type="time" class="form-control form-control-sm validate" name="horaentrega" min="08:00" max="21:00" step="600">
+                    <input type="time" class="form-control form-control-sm validate" name="horaentrega" min="08:00"
+                      max="21:00" step="600">
                     <br>
                     <label data-error="wrong" data-success="right" for="modalLRInput13">Hora de entrega</label>
-                  </div>
 
-                  <div class="md-form form-sm mb-4">
                     <i class="fas fa-lock prefix"></i>
                     <!-- <input type="password" id="modalLRInput14" class="form-control form-control-sm validate"> -->
                     <div class="dropdown">
-                      <button class="btn btn-lg dropdown-toggle form-control form-control-sm validate" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Seleccioná tu bandeja
+                      <button class="btn btn-lg dropdown-toggle form-control form-control-sm validate" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Opciones de bandejas...
                       </button>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#"></a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Desayuno 1: Feliz Cumpleaños </a>
+                        <a class="dropdown-item" href="#">Desayuno 2: Día de la Madre</a>
+                        <a class="dropdown-item" href="#">Desayuno 3: Desayuno sin TAC</a>
+                        <a class="dropdown-item" href="#">Desayuno 4: Día del Padre</a>
+                        <a class="dropdown-item" href="#">Desayuno 5: Picada completa</a>
+                        <a class="dropdown-item" href="#">Desayuno 6: Picada Veggie</a>
                       </div>
                     </div>
                     <label data-error="wrong" data-success="right" for="modalLRInput14">Seleccionar Bandeja</label>
@@ -358,7 +359,8 @@
                 <div class="modal-footer">
                   <div class="options text-right">
                     <p class="pt-1">
-                    <h6>Si ya reservaste tu bandeja, esperá nuestro contacto y el cupón de pago</h6> </p>
+                    <h6>Si ya reservaste tu bandeja, esperá nuestro contacto y el cupón de pago</h6>
+                    </p>
                   </div>
                   <button type="button" class="btn btn-outline-info waves-effect ml-auto buttondesayuno"
                     data-dismiss="modal">Close</button>
