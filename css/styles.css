@@ -79,12 +79,12 @@ background-color:rgba(138, 43, 2226, 0.4);
     opacity: 0.8 !important;
     color: white !important;
 }  
-    position:fixed;
+  /*   position:fixed;
     bottom:100px;
     right:5px;
     width: 20px;
     height: 20px;                
-}
+} */
 footer{
     background-color: blueviolet;
     height: 30px;
