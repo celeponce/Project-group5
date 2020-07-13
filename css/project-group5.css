@@ -7,11 +7,11 @@
 
 .botonnav{ background: blueviolet;}
 h2{
-    color: blueviolet;
+    color: blueviolet !important;
 }
 h1{
-    color: blueviolet;
+    color: blueviolet !important;
 }
 p1{
-    color: blueviolet;
+    color: blueviolet !important;
 }

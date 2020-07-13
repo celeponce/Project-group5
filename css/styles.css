@@ -34,3 +34,38 @@
         height: 20px;
                        
 }
+.opacity-0 {
+    opacity: 0;
+  }
+.opacity-1 {
+   opacity: 0.2;
+       }
+.opacity-2 {
+            
+            opacity: 0.4;
+            }
+
+.opacity-3 {
+               
+               opacity: 0.6;
+                }
+
+.opacity-4 {
+                    
+                opacity: 0.8;
+                    }
+
+.opacity-5 {
+                        
+           opacity: 1;}
+
+.divcarousel{
+background-color:rgba(138, 43, 2226, 0.4);
+
+
+
+}         
+.letrascarousel {
+    opacity: 0.8 !important;
+    color: white !important;
+}  
