@@ -4,7 +4,9 @@
     background: blueviolet;
     padding: 15px;
 }
-.botonnav{ background: blueviolet;}
+.botonnav{
+    background: blueviolet;
+}
 h2{
     color: blueviolet;
 }
@@ -12,13 +14,13 @@ h1{
     color: blueviolet;
 }
 p{
-    color: blueviolet;
+    /* color: blueviolet;  */
 }
 .contentfont {
-    /* font-family: 'Forum', cursive; */
+   
     font-family: 'Lato';
 }
-.buttondesayuno {
+.buttondesayuno{
     color: cornsilk !important;
     background-color: blueviolet !important;
     border-radius: 5px;
@@ -30,21 +32,24 @@ p{
     background-color: blueviolet !important;
     border-radius: 5px;
     text-align: center justify;
+    position: absolute; 
+    right: 0;
+    bottom: 0;
    
 }
-.flotante {
+.flotante{
     display:scroll;
     position:fixed;
     bottom:0px;
     right:0px;              
 }
-.flotante1 {
+.flotante1{
     display:scroll;
     position:fixed;
     bottom:48px;
     right:0px;                   
 }
-.flotante2 {
+.flotante2{
     display:scroll;
         position:fixed;
         bottom:100px;
@@ -53,15 +58,15 @@ p{
         height: 20px;
                        
 }
-.opacity-0 {
+.opacity-0{
     opacity: 0;
   }
-.opacity-1 {
+.opacity-1{
    opacity: 0.2;
        }
-.opacity-2 {
+.opacity-2{
             
-            opacity: 0.4;
+        opacity: 0.4;
             }
 
 .opacity-3 {
@@ -80,7 +85,7 @@ p{
 
 .divcarousel{
 background-color:rgba(138, 43, 226, 0.4);
-width:;
+
 
 
 }         
@@ -95,9 +100,10 @@ width:;
     height: 20px;                
 } */
 footer{
+    color: white;
     background-color: blueviolet;
-    height: 30px;
-
+    height: 60px;
+    bottom: 0px !important;
 }
 .tabactive a{
     color: blueviolet !important;
