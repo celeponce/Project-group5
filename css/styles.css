@@ -102,7 +102,16 @@ footer{
     color: white;
     background-color: blueviolet;
     height: 60px;
-    bottom: 0px !important;
+    bottom: 0 !important;
+    
+}
+footer2{
+    color: white;
+    background-color: blueviolet;
+    height: 60px;
+    position: absolute !important;
+    bottom: 0 !important;
+    
 }
 .tabactive a{
     color: blueviolet !important;

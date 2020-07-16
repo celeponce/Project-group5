@@ -9,7 +9,7 @@
   <meta name="keywords" content="bandejas, desayunos, regalos, sorpresas,desayunos tucuman" />
 
   <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
-  <title>Desayunos Toda Ocasión</title>
+  <title style="font-style: italic;">Desayunos Toda Ocasión</title>
   <!-- CSS bootstrap -->
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
@@ -53,8 +53,8 @@
     <div class="collapse navbar-collapse oerder-3 order-sm-2" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active"><a class="nav-link" href="./index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Desayunos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Picadas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ancladesayuno">Desayunos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#anclapicada">Picadas</a></li>
         <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
       </ul>
     </div>
@@ -244,13 +244,11 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active navactive" data-toggle="tab" href="#panel7" role="tab"><i
-                    class="fas fa-user mr-1"></i>
+                <a class="nav-link active navactive" data-toggle="tab" href="#panel7" role="tab">
                   Contactanos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navinactive" data-toggle="tab" href="#panel8" role="tab"><i
-                    class="fas fa-user-plus mr-1"></i>
+                <a class="nav-link navinactive" data-toggle="tab" href="#panel8" role="tab">
                   Encarga tu bandeja aquí</a>
               </li>
             </ul>
@@ -263,25 +261,25 @@
                 <!--Body-->
                 <div class="modal-body mb-1">
                   <div class="md-form form-sm mb-5">
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <input type="input" id="modalLRInput10" class="form-control form-control-sm validate">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">Nombre</label>
                   </div>
 
                   <div class="md-form form-sm mb-5">
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">e-mail</label>
                   </div>
                   <div class="md-form form-sm mb-5">
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <div class="input-group-prepend"></div>
                     <textarea class=" form-control form-control-sm validate" aria-label="With textarea"
                       id="modalLRInput10"></textarea>
                     <label data-error="wrong" data-success="right" for="modalLRInput10">Tu consulta</label>
                   </div>
                   <div class="text-center mt-2">
-                    <button class="btn btn-info buttondesayuno">Enviar<i class="fas fa-sign-in ml-1"></i></button>
+                    <button class="btn btn-info buttondesayuno">Enviar</button>
                   </div>
                 </div>
                 <!--Footer-->
@@ -300,33 +298,33 @@
                 <div class="modal-body">
 
                   <div class="md-form form-sm mb-5">
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <input type="input" id="modalLRInput10" class="form-control form-control-sm validate">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">Nombre</label>
 
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <input type="input" id="modalLRInput10" class="form-control form-control-sm validate" required
                       minlength="8" maxlength="20">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">Teléfono *</label>
 
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <input type="email" id="modalLRInput10" class="form-control form-control-sm validate" required
                       minlength="8" maxlength="20">
                     <label data-error="wrong" data-success="right" for="modalLRInput10">e-mail *</label>
 
-                    <i class="fas fa-envelope prefix"></i>
+                    
                     <input type="date" id="start" class="form-control form-control-sm validate" name="trip-start"
                       min="today" max="2022-12-31">
                     <br>
                     <label data-error="wrong" data-success="right" for="modalLRInput12">Fecha de entrega</label>
 
-                    <i class="fas fa-lock prefix"></i>
+                   
                     <input type="time" class="form-control form-control-sm validate" name="horaentrega" min="08:00"
                       max="21:00" step="600">
                     <br>
                     <label data-error="wrong" data-success="right" for="modalLRInput13">Hora de entrega</label>
 
-                    <i class="fas fa-lock prefix"></i>
+                    
                     <div class="dropdown">
                       <button class="btn btn-lg dropdown-toggle form-control form-control-sm validate" type="button"
                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -347,14 +345,14 @@
                   </div>
 
                   <div class="md-form form-sm mb-4">
-                    <i class="fas fa-lock prefix"></i>
+                    
                     <textarea class=" form-control form-control-sm validate" aria-label="With textarea"
                       id="modalLRInput10"></textarea>
                     <label data-error="wrong" data-success="right" for="modalLRInput14">Notas | Detalles</label>
                   </div>
 
                   <div class="text-center form-sm mt-2">
-                    <button class="btn btn-info buttondesayuno">Reservar<i class="fas fa-sign-in ml-1"></i></button>
+                    <button class="btn btn-info buttondesayuno">Reservar</button>
                   </div>
 
                 </div>
@@ -537,6 +535,8 @@
     </div>
   </div>
   <!--Fin del cuerpo de la pagina-->
+  <br>
+
   <!-- Footer     -->
   <footer class="footer text-center">
     Copyright &#169; 2020 - Oscar Aguirre - Celeste Ponce |
