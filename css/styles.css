@@ -35,8 +35,7 @@ p{
     position: absolute; 
     right: 0;
     bottom: 0;
-   
-}
+   }
 .flotante{
     display:scroll;
     position:fixed;
