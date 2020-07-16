@@ -15,13 +15,22 @@ p{
     color: blueviolet;
 }
 .contentfont {
-    font-family: 'Forum', cursive;
+    /* font-family: 'Forum', cursive; */
+    font-family: 'Lato';
 }
 .buttondesayuno {
     color: cornsilk !important;
     background-color: blueviolet !important;
     border-radius: 5px;
     text-align: center justify;
+    
+}
+.buttondesayuno2 {
+    color: cornsilk !important;
+    background-color: blueviolet !important;
+    border-radius: 5px;
+    text-align: center justify;
+   
 }
 .flotante {
     display:scroll;
@@ -70,8 +79,8 @@ p{
            opacity: 1;}
 
 .divcarousel{
-background-color:rgba(138, 43, 2226, 0.4);
-
+background-color:rgba(138, 43, 226, 0.4);
+width:;
 
 
 }         
@@ -89,4 +98,33 @@ footer{
     background-color: blueviolet;
     height: 30px;
 
+}
+.tabactive a{
+    color: blueviolet !important;
+
+}
+.tabinactive a{
+    color: grey !important;
+
+}
+.spanprodlistizq {
+    background-image: url(../img/flecha-izq.png) !important;
+    background-repeat: no-repeat !important;
+  
+    color: blueviolet !important;}
+.spanprodlistder {
+        background-image: url(../img/flecha-der.png) !important;
+        background-repeat: no-repeat !important;
+       
+        color: blueviolet !important;}
+
+.thumbnail1{
+    width: 100% !important;
+    height: 300px !important;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
 }
