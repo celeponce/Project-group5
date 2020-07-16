@@ -24,97 +24,110 @@
 
   <!-- <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+  <!-- Script Letras-->
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body style="background:#FFFAFA !important;" class="">
-
-  <div class="container contentfont">
-    <!-- Nav Bar -->
-    <nav class="nav1">
-      <ul>
-        <button type="button" class="btn btn-primary btn-lg botonnav">Inicio</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav">Desayunos</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav">Picadas</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav">Nosotros</button>
-        <button type="button" class="btn btn-secondary btn-lg botonnav"><a href=error404.html>Mas</a></button>
+  <!-- Inicio navbar -->
+  <nav class="navbar navbar-fixed-top navbar-dark navbar-expand-sm navbar-template botonnav">
+    <a class="navbar-brand" href="./index.html">Desayunos Toda Ocasión</a>
+    <div class="d-flex flex-row order-2 order-sm-3">
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
-    </nav>
-    <!-- Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/carousel/bandeja0.jpg" class="d-block w-100 h-70" alt="..." />
-          <div class="carousel-caption d-none d-md-block divcarousel" width="100%">
-            <div>
-              <h2 class="letrascarousel">Desayuno Boutique minimalista</h2>
-              <p>
-              <h5>Ideal cuando querés hacer un día extraordinario</h5>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/carousel/bandeja1.jpg" class="d-block w-100" alt="..." width="100%" height="30%" />
-          <div class="carousel-caption d-none d-md-block divcarousel">
-            <h2 class="letrascarousel">Felíz Cumpleaños!</h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse oerder-3 order-sm-2" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="./index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Desayunos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Picadas</a></li>
+        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Fin Navbar -->
+
+  <!-- Inicio Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/carousel/bandeja0.jpg" class="d-block w-100 h-70" alt="..." />
+        <div class="carousel-caption d-none d-md-block divcarousel" width="100%">
+          <div>
+            <h2 class="letrascarousel">Desayuno Boutique minimalista</h2>
             <p>
-            <h5>No dejes de ser parte de días como este durante la pandemia!</h5>
+            <h5>Ideal cuando querés hacer un día extraordinario</h5>
             </p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./img/carousel/bandeja2.jpg" class="d-block w-100" alt="..." width="100%" height="30%" />
-          <div class="carousel-caption d-none d-md-block divcarousel">
-            <h2 class="letrascarousel">Felíz Cumpleaños!</h2>
-            <p>
-            <h5>No dejes de ser parte de días como este durante la pandemia!</h5>
-            </p>
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/bandeja1.jpg" class="d-block w-100" alt="..." width="100%" height="30%" />
+        <div class="carousel-caption d-none d-md-block divcarousel">
+          <h2 class="letrascarousel">Felíz Cumpleaños!</h2>
+          <p>
+          <h5>No dejes de ser parte de días como este durante la pandemia!</h5>
+          </p>
         </div>
-        <div class="carousel-item">
-          <img src="./img/carousel/bandeja3.jpg" class="d-block w-100" alt="..." width="100%" height="30%" />
-          <div class="carousel-caption d-none d-md-block divcarousel">
-            <h2 class="letrascarousel">Para esa persona especial de la familia</h2>
-            <p>
-            <h5>Decile cuan importante y amad@ es!</h5>
-            </p>
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/bandeja2.jpg" class="d-block w-100" alt="..." width="100%" height="30%" />
+        <div class="carousel-caption d-none d-md-block divcarousel">
+          <h2 class="letrascarousel">Felíz Cumpleaños!</h2>
+          <p>
+          <h5>No dejes de ser parte de días como este durante la pandemia!</h5>
+          </p>
         </div>
-        <div class="carousel-item">
-          <img src="./img/carousel/bandeja4.jpg" class="d-block w-100" alt="..." width="100%" height="40%" />
-          <div class="carousel-caption d-none d-md-block divcarousel">
-            <h2 class="letrascarousel">Aniversarios y Cumplemeses!</h2>
-            <p>
-            <h5> Hacé que su día empice dulce y con mucho amor!</h5>
-            </p>
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/bandeja3.jpg" class="d-block w-100" alt="..." width="100%" height="30%" />
+        <div class="carousel-caption d-none d-md-block divcarousel">
+          <h2 class="letrascarousel">Para esa persona especial de la familia</h2>
+          <p>
+          <h5>Decile cuan importante y amad@ es!</h5>
+          </p>
         </div>
-        <div class="carousel-item">
-          <img src="./img/carousel/picada1.jpg" class="d-block w-100" alt="..." width="100%" height="40%" />
-          <div class="carousel-caption d-none d-md-block divcarousel">
-            <h2 class="letrascarousel">Prefiero saladito</h2>
-            <p>
-            <h5>Para los no tan dulceros, sorprende con Picadas de primera calidad</h5>
-            </p>
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/bandeja4.jpg" class="d-block w-100" alt="..." width="100%" height="40%" />
+        <div class="carousel-caption d-none d-md-block divcarousel">
+          <h2 class="letrascarousel">Aniversarios y Cumplemeses!</h2>
+          <p>
+          <h5> Hacé que su día empice dulce y con mucho amor!</h5>
+          </p>
         </div>
-        <div class="carousel-item">
-          <img src="./img/carousel/picada2.jpg" class="d-block w-100" alt="..." width="100%" height="40%" />
-          <div class="carousel-caption d-none d-md-block divcarousel">
-            <h2 class="letrascarousel">Prefiero Saladito</h2>
-            <p>
-            <h5> Personaliza las picadas con lo que mas le guste!</h5>
-            </p>
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/picada1.jpg" class="d-block w-100" alt="..." width="100%" height="40%" />
+        <div class="carousel-caption d-none d-md-block divcarousel">
+          <h2 class="letrascarousel">Prefiero saladito</h2>
+          <p>
+          <h5>Para los no tan dulceros, sorprende con Picadas de primera calidad</h5>
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/picada2.jpg" class="d-block w-100" alt="..." width="100%" height="40%" />
+        <div class="carousel-caption d-none d-md-block divcarousel">
+          <h2 class="letrascarousel">Prefiero Saladito</h2>
+          <p>
+          <h5> Personaliza las picadas con lo que mas le guste!</h5>
+          </p>
         </div>
       </div>
     </div>
@@ -126,6 +139,10 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
+  <!--Fin Carousel-->
+
+  <div class="container contentfont">
     <section>
       <article>
         <h1>Desayunos para toda ocasión!</h1>
@@ -396,12 +413,13 @@
   </div>
   <!-- Section -->
 
-
-
   <!-- Footer     -->
   <footer class="footer text-center">
     Copyright &#169; 2020 - Oscar Aguirre - Celeste Ponce |
-    <a href="https://rollingcodeschool.com/">Rolling Code School</a>
+    <a href="https://www.codear.com/">CodeAr.</a>
+    <address>
+      Contacto: <a href="oscaraguirre4@gmail.com">info@codear.com</a>
+    </address>
   </footer>
 
   <!-- Javascript  bootstrap -->
